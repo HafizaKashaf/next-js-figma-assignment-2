@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
 const Hero = () => {
   return (
@@ -23,10 +24,11 @@ const Hero = () => {
 
        {/* picture */}
         <div  className='w-1/2 h-[800px] max-sm:w-[428px] max-sm:h-[390px]'>
-        <img src="/images/Header.png"
+       <Image src="/images/Header.png"
          alt="Header"
+         width={640}
+         height={800}
          className='w-full w[640px] h-[800px] max-sm:w-[428px] max-sm:h-[390px]'
-         />
         </div>
       
      </div>
