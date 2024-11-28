@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-   <div> 
+   
      <div className=' w-full max-sm:w-[428px]  w[1280px] max-sm:h-[780px] h-[800px] sm:flex'>
 
        {/* content */}
@@ -33,7 +33,7 @@ const Hero = () => {
       
      </div>
      
-  </div>
+  
   )
 }
 
