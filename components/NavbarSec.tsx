@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from 'next/image';
 import Link from 'next/link';
 import { IoMdMenu } from "react-icons/io";
 
@@ -16,7 +16,9 @@ const NavbarSec = () => {
     
     <div className="flex items-center w-full w[1280px] h-[72px] bg-[#F7F7F7] border-b border-[#676767] px-[16px] mt-[16px] max-sm:mt-0 pl-[64px] max-sm:pl-[24px]">
         <div className="flex items-center justify-between w-[1152px] h-[44px]  ">
-            <img
+             <Image
+            width={130.6}
+            height={41}
                src="/images/Ddsgnr.png"
                alt="Ddsgnr Logo"
                 className="w-[130.6px] h-[41px] max-sm:h-[30.38px] "
